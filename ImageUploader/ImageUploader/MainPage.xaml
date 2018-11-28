@@ -5,10 +5,8 @@
              x:Class="ImageUploader.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button Text="Select Picture" Clicked="SelecetImageButton_Clicked"/>
+        <Image x:Name="imgSelected"/>
     </StackLayout>
 
 </ContentPage>
